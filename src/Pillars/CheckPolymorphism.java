@@ -21,10 +21,8 @@ public class CheckPolymorphism extends CheckClass{
 	
 	public static void main(String[] args) {
 		CheckPolymorphism meth = new CheckPolymorphism("Polymorphism");
-		meth.test1(1);                               //Method Overloading
-		meth.test1(22, 33);                          //Method Overloading
-		System.out.println("Method : "+meth.displayMessage());  
+		meth.test1(1);                                          //Method Overloading
+		meth.test1(22, 33);                                     //Method Overloading
+		System.out.println("Method : "+meth.displayMessage());  //Method Overriding
 	}
-	
-	
 }
