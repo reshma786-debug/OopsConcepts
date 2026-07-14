@@ -2,6 +2,7 @@ package OopsPillars.Inheritance;
 
 public class CheckMutliLevelInheritance extends CheckSingleInheritance {
 
+	//Acquiring properties and behavior of parent class/ Other classes
 	public void printStatement(String printer) {
 		System.out.println("Statement:  " + printer);
 	}

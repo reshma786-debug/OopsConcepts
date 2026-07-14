@@ -1,7 +1,15 @@
 package OopsPillars;
 
+//abstraction is achieved using abstract classes and interfaces
+
 abstract class Cartoon {
-	abstract void tomAndJerry();
+
+	abstract void tomAndJerry(); // both abstract methods (without a body) and concrete methods (with
+								 // implementation)
+
+	public void test() {
+		System.out.println("Concerte Methods");
+	}
 }
 
 public class CheckAbstraction extends Cartoon {
