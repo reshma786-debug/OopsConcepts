@@ -1,4 +1,4 @@
-package Pillars;
+package OopsPillars;
 
 abstract class Cartoon {
 	abstract void tomAndJerry();

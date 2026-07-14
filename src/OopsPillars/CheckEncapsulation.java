@@ -1,4 +1,4 @@
-package Pillars;
+package OopsPillars;
 
 public class CheckEncapsulation {
 
