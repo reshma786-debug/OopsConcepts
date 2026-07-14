@@ -5,7 +5,7 @@ public class CheckClass {
 	static int i;
 	String message = "";
 
-	CheckClass(String input) {
+    CheckClass(String input) {
 		this.message = input;
 	}
 
